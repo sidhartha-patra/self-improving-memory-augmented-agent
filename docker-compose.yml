@@ -1,0 +1,8 @@
+services:
+  self-improving-memory-augmented-agent:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    environment:
+      SELF_IMPROVING_MEMORY_AUGMENTED_AGENT_ENVIRONMENT: container

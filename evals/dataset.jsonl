@@ -1,0 +1,3 @@
+{"id":"repo-purpose","prompt":"Explain the purpose of Self Improving Memory Augmented Agent.","expected_status":"completed","expected_substrings":["retention","sensitive data"],"auto_approve":false}
+{"id":"store-memory","prompt":"remember semantic retention 30 tags: incident,latency Lead with customer impact and top suspect for latency incidents.","expected_status":"completed","expected_substrings":["Stored semantic memory"],"auto_approve":true}
+{"id":"retrieve-memory","prompt":"retrieve latency incidents","expected_status":"completed","expected_substrings":["customer impact"],"auto_approve":false}
